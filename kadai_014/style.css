@@ -2,7 +2,7 @@ body{
     font-family: "Arial","Mairyo",sans-serif;
 }
 h1{
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
     line-height: 1.5;
     letter-spacing:1.5em;
@@ -22,6 +22,7 @@ h1{
 
 
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .paragraph1{
@@ -31,36 +32,43 @@ h2{
     color:pink;
 }
 .paragraph2{
+    font-weight: bold;
     text-align: center;
 }
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .heading3{
-    color:aqua;
+    color:skyblue;
 }
 .paragraph3{
+    font-weight: bold;
     text-align: center;
 }
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .heading4{
     color: pink;
 }
 .paragraph4{
+    font-weight: bold;
     text-align: center;
 }
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .heading5{
-    color:aqua;
+    color: skyblue;
 }
 .paragraph5{
     text-align: center;
 }
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .heading6{
@@ -70,10 +78,11 @@ h2{
     text-align: center;
 }
 h2{
+    font-size: 20px;
     text-align: center;
 }
 .heading7{
-    color:aqua;
+    color:skyblue;
 }
 .paragraph7{
     text-align: center;
