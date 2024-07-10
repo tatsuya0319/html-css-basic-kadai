@@ -1,0 +1,42 @@
+#flexbox-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+.content01 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.content02 {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    right: 500px;
+    
+}
+h2 {
+    font-size: 40px;
+    color: aliceblue;
+}
+p {
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 10px 0;
+    width: 90%;
+}
+@media screen and (max-width: 768px{
+    div {
+        display: inline-block;
+    }
+}

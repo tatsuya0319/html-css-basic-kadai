@@ -1,0 +1,30 @@
+h2 {
+    font-size: 50px;
+    padding-left: 30px; 
+    padding-top: 60px;
+    margin: 0;   
+}
+.link1 {
+    position: relative;
+    left: 1050px;
+    bottom: 35px;
+    font-size: 20px;
+    
+}
+.link2 {
+    position: relative;
+    display: flex;
+    left: 1200px;
+    bottom: 56px;
+    font-size: 20px;
+}
+.link3 {
+    position: relative;
+    display: flex;
+    left: 1350px;
+    bottom: 76px;
+    font-size: 20px;
+}
+header {
+    background-color: brown;
+}
