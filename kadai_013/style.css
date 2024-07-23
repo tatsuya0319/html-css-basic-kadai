@@ -22,6 +22,12 @@ body {
     min-width: 960px;
     margin: 0 auto 0 auto;
 }
+#menu-sp {
+    display: none;
+}
+#nav-sp {
+    display: none;
+}
 
 /* ヘッダー */
 header {
@@ -35,34 +41,37 @@ header {
     font-size: 14px;        
     padding-top: 15px;
 }
+#nav-pc ul {
+    display: flex;
+    padding-left: 0;
+}
+#nav-pc li {
+    list-style: none;
+}
+
 
 /* ナビゲーションのリンクの装飾設定 */
-#nav-pc > a {
+#nav-pc a {
     text-decoration: none;
     margin-left: 20px;
+    
 }
 
-#nav-pc > a:link {
+#nav-pc ul a:link {
     color: #0d0d0d;
 }
 
-#nav-pc > a:visited {
+#nav-pc ul a:visited {
     color: #0d0d0d;
 }
 
-#nav-pc > a:hover {
+#nav-pc ul a:hover {
     color: #0d0d0d;
     text-decoration: underline;
 }
 
-#nav-pc > a:active {
+#nav-pc ul a:active {
     color: #0d0d0d;
-}
-#menu-sp {
-    display: none;
-}
-#nav-sp {
-    display: none;
 }
 }
 @media screen and (max-width: 767px) {
@@ -97,24 +106,26 @@ header {
         position: absolute;
         top: 20px;
         right: 20px;
+        background-color: transparent;
+        border: none;
     }
     #logo-sp {
         margin: 80px 0 30px 20px;
     }
-    #nav-sp > a {
+    #nav-sp nav a {
         display: block;
     }
-    #nav-sp > a:link {
+    #nav-sp nav a:link {
         color: #ffffff;
     }
-    #nav-sp > a:visited {
+    #nav-sp nav a:visited {
         color: #ffffff;
     }
-    #nav-sp > a:hover {
+    #nav-sp nav a:hover {
         color: #ffffff;
         text-decoration: underline;
     }
-    #nav-sp > a:active {
+    #nav-sp nav a:active {
         color: #ffffff;
     }
     #nav-sp .menu{
